@@ -1101,6 +1101,7 @@ def check_core_pattern():
     rv = True
 
     core_pattern_file = '/proc/sys/kernel/core_pattern'
+    return True
 
     ### check /proc/sys/kernel/core_pattern to see if afl-fuzz will
     ### accept it
